@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4"
+         xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+        <!--<display-name>foodweb </display-name>-->
+        <!--&lt;!&ndash; struts2过滤器，用于将web请求拦截到struts2处理 &ndash;&gt;-->
+        <!--<filter>-->
+            <!--<filter-name>struts2</filter-name>-->
+            <!--<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>-->
+        <!--</filter>-->
+
+        <!--<filter-mapping>-->
+            <!--<filter-name>struts2</filter-name>-->
+            <!--<url-pattern>/*</url-pattern>-->
+        <!--</filter-mapping>-->
+
+        <!--&lt;!&ndash; Spring3监听器，用于启动服务器时加载Spring的配置信息 &ndash;&gt;-->
+        <!--<listener>-->
+            <!--&lt;!&ndash; 默认加载WEB-INF下面的applicationContext.xml，需要为其指定上下文参数 &ndash;&gt;-->
+            <!--<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
+        <!--</listener>-->
+        <!--<context-param>-->
+            <!--<param-name>contextConfigLocation</param-name>-->
+            <!--<param-value>/src/main/resources/applicationContext.xml</param-value>-->
+        <!--</context-param>-->
+
+        <welcome-file-list>
+            <welcome-file>index.jsp</welcome-file>
+        </welcome-file-list>
+
+
+</web-app>
+        

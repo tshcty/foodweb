@@ -1,0 +1,44 @@
+static:
+	adminLTE
+	plugin
+		bootstrap-datetimepicker:一款出色的JS日历控件
+		bootstrap-fileinput:进行图片的展示，上传
+		slimScroll:是一个支持把内容放在一个盒子里面，固定一个高度，超出的则使用滚动。
+		BootstrapTagsInput是一个jQuery插件，提供了一个Twitter引导用户界面来管理标签。 
+		Font-Awesome:图标
+main:
+
+<!-- JSTL是JSP标准标记库，它采用了简单的EL,提供一个访问和操作应用程序数据（如存储在servlet上下文中的数据）的简单方式，极大地简化了对JSP中应用数据的访问和操作,<c:out value="${username}" />中的${username}就是一个el，它相当于jsp语句<%=request.getattribute(“username”)%>
+ JSTL 核心标签库标签共有13个，功能上分为4类：
+1.表达式控制标签：out、set、remove、catch
+	1. <c:out> 用来显示数据对象（字符串、表达式）的内容或结果
+	使用Java脚本的方式为：<% out.println("hello") %>  <% =表达式 %>
+	使用JSTL标签：<c:out value="字符串">
+	2.流程控制标签：if、choose、when、otherwise
+	3.循环标签：forEach、forTokens
+	4.URL操作标签：import、url、redirect
+ -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<!-- 使用Struts2标签
+ 
+ -->
+<%@ taglib uri="/struts-tags" prefix="s" %>
+<!-- JSP中的两种包含页面的方法：
+第一种：include指令：当JSP转换成Servlet时引入指定文件
+第二种：<jsp:include>动作元素：当JSP页面被请求时引入指定文件
+第二种方法可以很方便的用<jsp:param>来向所包含页传递参数
+ -->
+<%@ include file="../templates/header.jsp"%>
+<link rel="stylesheet" href="<c:url value='/static/styles/common.css' />" />
+</head>
+<%@ include file="../templates/navbar.jsp" %>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+
+界面：
+    common:
+        header.jsp
+            <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+            ${title}：
+            bootstrap.min.css
+            font-awesome.min.css
+            AdminLTE.min.css
+            _all-skins.min.css
+        navbar.jsp
+             <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+            xxxxx(各自)
+        footer.jsp
+
+公共：
+
+会员：
+
+管理员：
+
+
+
+
+
+
+
+java文件
+
+
+
+
+
+
+
+resourse

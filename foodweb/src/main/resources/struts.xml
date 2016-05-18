@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+				"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+				"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true " />
+	<package name="default" namespace="/" extends="struts-default" >
+
+	</package>
+
+
+
+
+
+
+
+
+
+	<!--<constant name="struts.action.excludePattern" value="/static/.*?" />-->
+	<!--<constant name="struts.i18n.encoding" value="UTF-8" />-->
+
+	<!--<package name="main" extends="json-default" >-->
+		<!--<result-types>-->
+			<!--<result-type name="imageResult"-->
+						 <!--class="com.cinema.util.ImageBytesResult"/>-->
+		<!--</result-types>-->
+
+		<!--<global-results>-->
+			<!--<result name="json" type="json">-->
+				<!--<param name="root">jsonResponse</param>-->
+			<!--</result>-->
+		<!--</global-results>-->
+
+		<!--<action name="posterAction" class="com.cinema.action.film.PosterAction">-->
+			<!--<result name="success" type="imageResult">-->
+			<!--</result>-->
+		<!--</action>-->
+	<!--</package>-->
+
+	<!--<package name="auth" extends="json-default" >-->
+		<!--<interceptors>-->
+			<!--<interceptor name="authority" class="com.cinema.util.LoginInterceptor" />-->
+			<!--<interceptor-stack name="mydefault">-->
+				<!--<interceptor-ref name="defaultStack" />-->
+				<!--<interceptor-ref name="authority" />-->
+			<!--</interceptor-stack>-->
+		<!--</interceptors>-->
+		<!--<default-interceptor-ref name="mydefault" />-->
+		<!--<global-results>-->
+			<!--<result name="login" type="redirect">-->
+				<!--<param name="location">/login</param>-->
+			<!--</result>-->
+			<!--<result name="admin" type="redirect">-->
+				<!--<param name="location">/admin/users</param>-->
+			<!--</result>-->
+			<!--<result name="normal" type="redirect">-->
+				<!--<param name="location">/index</param>-->
+			<!--</result>-->
+			<!--<result name="json" type="json">-->
+				<!--<param name="root">jsonResponse</param>-->
+			<!--</result>-->
+		<!--</global-results>-->
+	<!--</package>-->
+
+	<!--<constant name="struts.convention.default.parent.package" value="auth"/>-->
+	<!--<constant name="struts.convention.result.path" value="/views" />-->
+	<!--<constant name="struts.multipart.saveDir" value="/tmp"/>-->
+	<!--<constant name="struts.multipart.maxSize" value="4294967296" />-->
+</struts>

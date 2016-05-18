@@ -1,0 +1,152 @@
+ body{
+    background: #ffcc99;
+    height: 1500px; 
+   }
+   .container{
+        margin:0 auto;
+        width:1000px;
+        /*background: #000; */
+   }
+/*header样式开始*/
+    .myheader{
+        background: #f1634d;
+        font-size: 15px "黑体";
+        color:#fff;
+        height: 120px;
+        line-height: 120px;
+        padding: 0px;
+    }
+    .myheader a{
+        color:#fff;
+        font-size: 17px;
+    }
+    .myheader a:hover{
+        color:#cc0033;
+    }
+    .header-logo{
+        padding-left: 0px;
+        float: left;        
+    }
+    .header-search{
+        float:left;
+        margin-left:180px;
+        margin-top: 45px;
+        position: relative;
+        /*background: #fff;*/
+        z-index: 12;    
+    }
+    .header-search input{
+        float:left;
+    }
+    .search-btn{
+        float:left;
+        margin-left:-50px;
+        background: red;
+    }
+    .header-login{
+        float:right;
+    }
+    
+/*nav样式开始*/
+    .mynav{
+        background: #fff;
+        margin:0;
+        padding:0;
+        font:20px "黑体";
+        color:#000;
+    }
+    .myli{
+        margin-right: 40px;
+        
+    }
+    .myli a:hover,.active{
+        border-bottom: #D00E12 solid 2px;
+    }
+/*nav样式结束*/
+/*轮播开始*/
+#wrapper{
+    width:970px;
+    padding: 0px;
+    margin:10px auto;
+    background: #F7DBBC;
+    /*width: 100%;*/
+}
+/*轮播结束*/
+/*推荐菜式start*/
+.showlike{
+    height:950px;
+    margin: 0 auto;
+    text-align: center;
+    /*background: #000;*/
+
+}
+.showlike .sy-head{
+    margin-bottom: 50px;
+}
+.showlike .content{
+    width:230px;
+    height: 330px;
+    margin-right:14px; 
+    margin-bottom: 10px;
+    /*background: #555;*/
+}
+.showlike .row div .img{
+    display:block;
+    width:230px;
+    height: 230px;
+}
+.showlike .content a{
+    color:#000;
+    text-decoration: none;
+}
+.info-w{
+    width:230px;
+    height:100px;
+  /*  margin-right:14px; 
+    margin-bottom: 10px;*/
+    background: #fff;
+}
+.info-w .info_1{
+   text-align: left;
+   padding-left: 6px;
+}
+.info-w .info_1 .info{
+    display: block;
+   padding-top:5px;
+}
+.info-w .info_2 {
+    background: #fff none repeat scroll 0 0;
+    height: 100px;
+    overflow: hidden;
+    width: 230px;
+}
+.info-w .info_2 ul{
+    margin-top: 15px;
+   list-style: none none none;
+   padding-left: 6px;
+   text-align: left;
+   font-size: 18px;
+
+}
+
+/*推荐菜式end*/
+/*回顶部start*/
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../image/totop.gif');
+    background-repeat: no-repeat;
+    /*background: red;*/
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+#toTop:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+/*回顶部结束*/
+/**/
